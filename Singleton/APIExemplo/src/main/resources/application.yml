@@ -1,0 +1,20 @@
+server:
+  port: 8899
+
+spring:
+  h2:
+    console:
+      path: "/h2"
+
+  datasource:
+    url: "jdbc:h2:mem:testdb"
+    driverClassName: "org.h2.Driver"
+    username: "sa"
+    password: "password"
+
+  jpa:
+    database-plataform: "org.hibernate.dialect.H2Dialect"
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
