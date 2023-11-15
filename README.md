@@ -18,7 +18,7 @@
 
 ###
 
-<p align="left">Abstract Factory<br>Builder<br>Factory Method<br>Prototype<br>Singleton</p>
+<p align="left">Abstract Factory<br>Builder<br>Factory Method<br>Prototype<br>Singleton - ✅</p>
 
 ###
 
